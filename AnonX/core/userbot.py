@@ -49,7 +49,7 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("FullOnMasti_Club")
-                await self.one.join_chat("Death_Soul_Federation")
+                await self.one.join_chat("Eternity_Federation")
                 await self.one.join_chat("zain_THE_end")
             except:
                 pass
@@ -80,7 +80,7 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.one.join_chat("FullOnMasti_Club")
-                await self.one.join_chat("Death_Soul_Federation")
+                await self.one.join_chat("Eternity_Federation")
                 await self.one.join_chat("zain_THE_end")
             except:
                 pass
@@ -111,7 +111,7 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.one.join_chat("FullOnMasti_Club")
-                await self.one.join_chat("Death_Soul_Federation")
+                await self.one.join_chat("Eternity_Federation")
                 await self.one.join_chat("zain_THE_end")
             except:
                 pass
@@ -142,7 +142,7 @@ class Userbot(Client):
             await self.four.start()
             try:
                 await self.one.join_chat("FullOnMasti_Club")
-                await self.one.join_chat("Death_Soul_Federation")
+                await self.one.join_chat("Eternity_Federation")
                 await self.one.join_chat("zain_THE_end")
             except:
                 pass
@@ -173,7 +173,7 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.one.join_chat("FullOnMasti_Club")
-                await self.one.join_chat("Death_Soul_Federation")
+                await self.one.join_chat("Eternity_Federation")
                 await self.one.join_chat("zain_THE_end")
             except:
                 pass
