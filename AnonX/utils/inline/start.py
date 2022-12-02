@@ -10,13 +10,13 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𖨆.ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ.𖨆",
+                text="𖨆ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ𖨆",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="⁂.ʜᴇʟᴩ.⁂",
+                text="⁂ʜᴇʟᴩ⁂",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
@@ -25,9 +25,9 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="♪.ᴅᴇᴠᴇʟᴏᴘᴇʀ.♪", user_id=OWNER),
+                text="♪ᴅᴇᴠᴇʟᴏᴘᴇʀ♪", user_id=OWNER),
             InlineKeyboardButton(
-                text="ᴥ︎︎︎.sᴜᴩᴩᴏʀᴛ.ᴥ︎︎︎", url=f"{config.SUPPORT_GROUP}"
+                text="ᴥ︎︎︎sᴜᴩᴩᴏʀᴛᴥ︎︎︎", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
      ]
@@ -38,24 +38,24 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𖨆.ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.𖨆",
+                text="𖨆ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ𖨆",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⁂.ʜᴇʟᴩ.⁂", callback_data="settings_back_helper"
+                text="⁂ʜᴇʟᴩ⁂", callback_data="settings_back_helper"
             ),
         ],
         [
             InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER),
             InlineKeyboardButton(
-                text="ᴥ︎︎︎.sᴜᴩᴩᴏʀᴛ.ᴥ︎︎︎", url=f"{config.SUPPORT_GROUP}"
+                text="ᴥ︎︎︎sᴜᴩᴩᴏʀᴛᴥ︎︎︎", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="☼︎.ғᴇᴅᴇʀᴀᴛɪᴏɴ.☼︎", url=f"https://t.me/Death_Soul_Federation"
+                    text="☼︎ғᴇᴅᴇʀᴀᴛɪᴏɴ☼︎", url=f"https://t.me/Eternity_Federation"
                 )
         ],
      ]
